@@ -31,8 +31,23 @@ Tercera pregunta: Gemini -> Le he ordenado con una orden autoritaria que me real
 Me ha dado varias soluciones utilizando el operador "is" para verificar si dos cadenas son en realidad el mismo objeto.
 
 
+
 Cuarta pregunta: Gemini -> Le he preguntado como se modificaría el codigo para mostrar las cadenas con longitud menor de 10.
 Con las líneas len(cadena)<10 y  cadenas_cortas.append(cadena) realizamos un bucle for para imprimir las cadenas cortas.
 
 
+Quinta pregunta: Chatgpt -> ¿Por qué es importante el uso de excepciones en Python?
+ La LLM explica que el uso de excepciones es esencial para manejar errores de forma controlada, evitando que el programa falle inesperadamente. En este caso, la excepción ValueError se usa correctamente para controlar entradas no numéricas en el código.
+
+Conclusión: Respuesta correcta. El manejo de excepciones asegura que los programas respondan a errores de manera controlada, mejorando la robustez del código.
+
+
+Sexta pregunta: Chatgpt -> ¿Qué sucede si una cadena vacía es ingresada en la función comparar_objetos?
+ La LLM aclara que si una cadena vacía es ingresada, la función comparar_objetos devolvería "Cadenas no encontradas en la lista", a menos que haya cadenas vacías almacenadas en la lista original.
+
+Conclusión: Respuesta correcta. La comparación de objetos en Python considera las cadenas vacías como válidas, pero la lógica de la función debe estar preparada para manejarlas correctamente.
+
+
+Séptima pregunta: Chatgpt -> ¿Qué cambios recomiendas para que el código sea más fácil de entender?
+Chatgpt me sugiere añadir más comentarios dentro de las funciones para explicar mejor el propósito de cada una, así como utilizar nombres de variables más descriptivos. También propone simplificar algunas estructuras de control, como los bucles for o las comparaciones.
 
